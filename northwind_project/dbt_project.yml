@@ -44,7 +44,7 @@ models:
       dim_date:
         +materialized: view
 
-    analytics_obt:
+    analytics_dbt:
       enabled: true
       +materialized: table
       +schema: obt_northwind
