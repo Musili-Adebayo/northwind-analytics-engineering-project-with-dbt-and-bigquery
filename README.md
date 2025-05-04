@@ -48,21 +48,22 @@ I started by creating a staging layer in dbt to get our data from the source. Th
 
 ![staging_Layer](https://github.com/Musili-Adebayo/northwind-analytics-engineering-project-with-dbt-and-bigquery/blob/main/northwind_project/project_file/images/staging_layer.png)
 
-
+## 
 + See our staging table on BigQuery
 
 ![staging_on_bigquery](https://github.com/Musili-Adebayo/northwind-analytics-engineering-project-with-dbt-and-bigquery/blob/main/northwind_project/project_file/images/staging_on_bigquery.png)
 
-## + Creating a data warehouse layer where I created my fact and dim tables using Kimball dimensional modelling techniques.
+## Creating a data warehouse layer where I created my fact and dim tables using Kimball dimensional modelling techniques.
 I also created a Warehouse layer where I created dimension and fact tables based on the Northwind business requirements.
 ![warehouse_layer](https://github.com/Musili-Adebayo/northwind-analytics-engineering-project-with-dbt-and-bigquery/blob/main/northwind_project/project_file/images/warehouse_layer.png)
 
 
+## 
 + Below is the created warehouse name dbt_musili_dwh_northwind on , BigQuery, showing that I have created the dim_customer data from the referencing data in the staging layer
 
 ![Datawarehouse on Bigquery](https://github.com/Musili-Adebayo/northwind-analytics-engineering-project-with-dbt-and-bigquery/blob/main/northwind_project/project_file/images/datawarehouse_on_bigquery.png)
 
-## + Creating the analytical layer for data for a one big table (OBT) for reporting.
+## Creating the analytical layer for data for a one big table (OBT) for reporting.
 Finally, I created 3 One Big Table (OBT), which provides data for analytical reporting.
 ![Analytics OBT Layer](https://github.com/Musili-Adebayo/northwind-analytics-engineering-project-with-dbt-and-bigquery/blob/main/northwind_project/project_file/images/analytics_obt_layer.png)
 
